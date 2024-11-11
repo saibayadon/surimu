@@ -1,9 +1,10 @@
 # surimu
 
-A simple starter kit for SvelteKit.
+✨ A simple starter kit for SvelteKit.
 
 Includes:
 
+- Vite
 - SvelteKit with TypeScript
 - Vitest with `@testing-library/svelte`
 - Tailwind CSS
@@ -11,7 +12,7 @@ Includes:
 ## Developing
 
 ```bash
-yarn run dev
+bun run dev
 ```
 
 ## Testing & Linting
@@ -19,23 +20,23 @@ yarn run dev
 Running the tests with:
 
 ```bash
-yarn run test
+bun run test
 ```
 
 Lint files with:
 
 ```bash
-yarn run lint
+bun run lint
 ```
 
-You can also format all the files with `yarn run format`
+You can also format all the files with `bun run format`
 
 ## Building
 
 ```bash
-yarn run build
+bun run build
 ```
 
 You'll have to add an adapter for this, though.
 
-Preview the production build with `yarn run preview`.
+Preview the production build with `bun run preview`.
